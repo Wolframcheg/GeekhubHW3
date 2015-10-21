@@ -1,0 +1,22 @@
+
+{
+    "name": "kuznetsov/hw3",
+    "description": "Geekhub Php - HW3",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pavel Kuznetsov",
+            "email": "pashak17@ukr.net"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Transport\\": "src/Transport"
+        }
+    }
+}
