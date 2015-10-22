@@ -1,7 +1,7 @@
 <?php
 namespace Transport;
 
-class Auto extends AbstractTransport
+class Auto implements TransportInterface
 {
     use ShortInfo;
 
