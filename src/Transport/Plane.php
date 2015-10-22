@@ -1,7 +1,7 @@
 <?php
 namespace Transport;
 
-class Plane extends AbstractTransport
+class Plane implements TransportInterface
 {
     use ShortInfo;
 
